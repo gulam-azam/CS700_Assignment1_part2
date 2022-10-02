@@ -52,7 +52,7 @@ int main()
 {
 	string line;
 	ifstream inputFile;
-	inputFile.open("grades_Section.txt", ios::in);
+	inputFile.open("grades_Section2.txt", ios::in);
 	string arr[2];
 	//getline(inputFile, line);
 
@@ -82,16 +82,16 @@ int main()
 		}
 		
 	}	
-	/*
+	
 	for (size_t i = 0; i < students; i++)
 	{
-		cout << "Student: " << i;
+		cout << "Student:" << i << " ";
 		for (size_t j = 0; j < examNum; j++)
 		{
-			cout<<studExam[i][j];
+			cout<<studExam[i][j]<<',';
 		}
 		cout << endl;
-	}*/
+	}
 	
 	//delete[] exScore;
 	delete[] studExam;
