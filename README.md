@@ -1,4 +1,4 @@
-<h1>C++ Programme to extract student info from a text file
+<h1>C++ Programme to extract student info from a text file</h1>
 
 #This projet is written in C++ language
 
