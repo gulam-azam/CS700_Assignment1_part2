@@ -1,5 +1,6 @@
+C++ Programme to extract student info from a text file
 #This projet is written in C++ language
-# There are 3 files in this project
+#There are 3 files in this project
  1. Main.CPP : It takes a text file as input where several student's exam info is described. To process the information
 	       it call several functions and finally output Student's Name,Number of Exam taken,total score,average score
 		Grade in tabular format.
